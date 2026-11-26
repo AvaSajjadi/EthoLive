@@ -188,7 +188,7 @@ python scripts/bench_end_to_end.py             # throughput on your computer
 
 ## Relationship to LiveTracker
 
-[LiveTracker](https://github.com/AvaSajjadi/live-tracker) is the laboratory software built by a team (Ava Sajjadi,
+[LiveTracker](https://github.com/AvaSajjadi/LiveTracker) is the laboratory software built by a team (Ava Sajjadi,
 Igor Ten, Syed Taswar Mahbub) that runs EthoLive on a camera or a recording and adds researcher-approved rules, alerts
 and reports. EthoLive is independent of it: this repository contains the model, its training and evaluation, and the
 research. LiveTracker installs this package and loads its model files.

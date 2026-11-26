@@ -8,7 +8,7 @@ the faster YOLO pose model instead (`models/pose/`).
 ## The files
 
 Two of the three files are over GitHub's 100 MB limit, so the files are attached to the release
-[`mars-models-v1`](https://github.com/AvaSajjadi/live-tracker/releases/tag/mars-models-v1) instead of the repository. The
+[`mars-models-v1`](https://github.com/AvaSajjadi/LiveTracker/releases/tag/mars-models-v1) instead of the repository. The
 two 230 MB detection files are stored there in five 50 MB pieces each (`.part-a` to `.part-e`).
 
 | File | Size | Place | md5 |

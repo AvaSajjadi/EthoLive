@@ -17,7 +17,7 @@ import sys
 import urllib.request
 from pathlib import Path
 
-RELEASE = "https://github.com/AvaSajjadi/live-tracker/releases/download/mars-models-v1"
+RELEASE = "https://github.com/AvaSajjadi/LiveTracker/releases/download/mars-models-v1"
 ROOT = Path(__file__).resolve().parents[1]
 PARTS = "abcde"
 FILES = {                                   # file: (where it goes, md5, stored in pieces)
