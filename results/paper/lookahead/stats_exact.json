@@ -1,0 +1,5 @@
+{
+  "note": "Exact two-sided permutation p-values over all 11! = 39,916,800 permutations, computed 2026-11-26 from summary.csv. stats.json (written by scripts/lookahead_sweep.py --report) used 200,000 random permutations for n > 9.",
+  "gain_K6": {"n": 11, "spearman_rho": -0.7272727272727273, "p_exact": 0.014400102212602213},
+  "gain_K31": {"n": 11, "spearman_rho": -0.5454545454545454, "p_exact": 0.08763678451178451}
+}

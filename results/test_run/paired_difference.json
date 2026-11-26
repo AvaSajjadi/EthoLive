@@ -1,0 +1,23 @@
+{
+  "macro_f1": {
+    "diff_ci95": [
+      0.04022443812191202,
+      0.10805258561441372
+    ],
+    "share_mousescope_better": 1.0
+  },
+  "alert_precision": {
+    "diff_ci95": [
+      0.05379416274032653,
+      0.2947700681421843
+    ],
+    "share_mousescope_better": 0.9945
+  },
+  "alert_recall": {
+    "diff_ci95": [
+      0.04347826086956519,
+      0.1937984496124031
+    ],
+    "share_mousescope_better": 0.9875
+  }
+}

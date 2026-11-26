@@ -1,0 +1,60 @@
+{
+ "all": {
+  "n": 11,
+  "rho": -0.7272727272727273
+ },
+ "drop_1": {
+  "subsets": 11,
+  "worst_rho": -0.6363636363636362,
+  "weaker_than_-0.5": 0,
+  "worst_removed": [
+   "lunge"
+  ]
+ },
+ "drop_2": {
+  "subsets": 55,
+  "worst_rho": -0.5166666666666667,
+  "weaker_than_-0.5": 0,
+  "worst_removed": [
+   "attack",
+   "investigation"
+  ]
+ },
+ "drop_3": {
+  "subsets": 165,
+  "worst_rho": -0.30952380952380953,
+  "weaker_than_-0.5": 10,
+  "worst_removed": [
+   "attack",
+   "investigation",
+   "lunge"
+  ]
+ },
+ "without_mouse": {
+  "n": 8,
+  "rho": -0.3333333333333334,
+  "p_exact": 0.4278769841269841
+ },
+ "within_mouse": {
+  "n": 3,
+  "rho": -0.5
+ },
+ "without_fights": {
+  "n": 7,
+  "rho": -0.8214285714285715,
+  "p_exact": 0.034126984126984124
+ },
+ "within_fights": {
+  "n": 4,
+  "rho": -0.39999999999999997
+ },
+ "without_courtship": {
+  "n": 7,
+  "rho": -0.8571428571428573,
+  "p_exact": 0.023809523809523808
+ },
+ "within_courtship": {
+  "n": 4,
+  "rho": -0.39999999999999997
+ }
+}

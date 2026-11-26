@@ -1,0 +1,25 @@
+{
+  "train": [
+    "flyvsfly/aggression/movie1",
+    "flyvsfly/aggression/movie2",
+    "flyvsfly/aggression/movie4",
+    "flyvsfly/aggression/movie5",
+    "flyvsfly/boymeetsboy/movie1",
+    "flyvsfly/boymeetsboy/movie2"
+  ],
+  "validation": [
+    "flyvsfly/aggression/movie3",
+    "flyvsfly/boymeetsboy/movie3"
+  ],
+  "test": [
+    "flyvsfly/aggression/movie6",
+    "flyvsfly/aggression/movie7",
+    "flyvsfly/aggression/movie8",
+    "flyvsfly/aggression/movie9",
+    "flyvsfly/aggression/movie10",
+    "flyvsfly/boymeetsboy/movie4",
+    "flyvsfly/boymeetsboy/movie5",
+    "flyvsfly/boymeetsboy/movie6"
+  ],
+  "note": "EthoLive fly 0.5: Aggression + Boy meets boy (see scripts/train_fly_v2.py)"
+}

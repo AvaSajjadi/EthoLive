@@ -1,0 +1,165 @@
+{
+  "date": "2026-11-04",
+  "commit": "3bf9e0f1a9142438613436cde334b7303fda29b8",
+  "rows": [
+    {
+      "test set": "Aggression 6-10, video",
+      "model": "fly 0.5",
+      "macro_f1": 0.568289609936047,
+      "lunge_f1": 0.4669748658270897,
+      "wing_threat_f1": 0.7046333635091762,
+      "tussle_f1": 0.5969876768598814,
+      "hold_f1": 0.5045625335480408,
+      "lunge_bout_recall": 0.9375394321766561,
+      "lunge_bout_precision": 0.41862305460300714
+    },
+    {
+      "test set": "Aggression 6-10, video",
+      "model": "fly 0.6",
+      "macro_f1": 0.5469059333296487,
+      "lunge_f1": 0.4702194357366771,
+      "wing_threat_f1": 0.6314411153046292,
+      "tussle_f1": 0.5801580333625987,
+      "hold_f1": 0.5058051489146896,
+      "lunge_bout_recall": 0.897160883280757,
+      "lunge_bout_precision": 0.47482236638863146
+    },
+    {
+      "test set": "Aggression 6-10, video",
+      "model": "fly 0.7",
+      "macro_f1": 0.5977543329416952,
+      "lunge_f1": 0.6646989374262101,
+      "wing_threat_f1": 0.7194714087609103,
+      "tussle_f1": 0.5660026065909514,
+      "hold_f1": 0.44084437898870893,
+      "lunge_bout_recall": 0.9027777777777778,
+      "lunge_bout_precision": 0.625927542557835
+    },
+    {
+      "test set": "Aggression 6-10, tracker points",
+      "model": "fly 0.5",
+      "macro_f1": 0.5543404213230987,
+      "lunge_f1": 0.4922989807474519,
+      "wing_threat_f1": 0.6546399191802569,
+      "tussle_f1": 0.6165482466192986,
+      "hold_f1": 0.45387453874538747,
+      "lunge_bout_recall": 0.9356466876971609,
+      "lunge_bout_precision": 0.4862662239661938
+    },
+    {
+      "test set": "Aggression 6-10, tracker points",
+      "model": "fly 0.6",
+      "macro_f1": 0.5103877347682151,
+      "lunge_f1": 0.4774916577472769,
+      "wing_threat_f1": 0.6360804304729538,
+      "tussle_f1": 0.55861714872497,
+      "hold_f1": 0.3693617021276596,
+      "lunge_bout_recall": 0.873186119873817,
+      "lunge_bout_precision": 0.4948350549816728
+    },
+    {
+      "test set": "Aggression 6-10, tracker points",
+      "model": "fly 0.7",
+      "macro_f1": 0.5788235074308197,
+      "lunge_f1": 0.6532894736842105,
+      "wing_threat_f1": 0.6781441494018092,
+      "tussle_f1": 0.5588714053174172,
+      "hold_f1": 0.4249890013198416,
+      "lunge_bout_recall": 0.8876262626262627,
+      "lunge_bout_precision": 0.6276595744680851
+    },
+    {
+      "test set": "Boy meets boy 4-6, tracker points",
+      "model": "fly 0.5",
+      "lunge_f1": 0.19146482122260672,
+      "wing_threat_f1": 0.6598909794267629,
+      "lunge_bout_recall": 0.851063829787234,
+      "lunge_bout_precision": 0.1930379746835443
+    },
+    {
+      "test set": "Boy meets boy 4-6, tracker points",
+      "model": "fly 0.6",
+      "lunge_f1": 0.1737111007895959,
+      "wing_threat_f1": 0.6066073387784956,
+      "lunge_bout_recall": 0.851063829787234,
+      "lunge_bout_precision": 0.15365239294710328
+    },
+    {
+      "test set": "Boy meets boy 4-6, tracker points",
+      "model": "fly 0.7",
+      "lunge_f1": 0.4739622641509434,
+      "wing_threat_f1": 0.6529140406731206,
+      "lunge_bout_recall": 0.8085106382978723,
+      "lunge_bout_precision": 0.46296296296296297
+    }
+  ],
+  "intervals_95": {
+    "Aggression 6-10, video": {
+      "fly 0.5": [
+        0.3991152413771154,
+        0.6129904979688474
+      ],
+      "fly 0.6": [
+        0.37523742563638735,
+        0.6144751882054291
+      ],
+      "fly 0.7": [
+        0.44829268452677257,
+        0.6359746518937577
+      ],
+      "0.7 minus 0.5": [
+        -0.00010947243436904447,
+        0.08264518046935665
+      ],
+      "0.7 minus 0.6": [
+        0.011861113927866374,
+        0.09284471698518515
+      ]
+    },
+    "Aggression 6-10, tracker points": {
+      "fly 0.5": [
+        0.3895859131264321,
+        0.6249696827871971
+      ],
+      "fly 0.6": [
+        0.34341140245193513,
+        0.5886878042713453
+      ],
+      "fly 0.7": [
+        0.40105139455734096,
+        0.6461605966453783
+      ],
+      "0.7 minus 0.5": [
+        -0.0017005773299032523,
+        0.06048687350270132
+      ],
+      "0.7 minus 0.6": [
+        0.03894523402550492,
+        0.1161427401142105
+      ]
+    },
+    "Boy meets boy 4-6, tracker points": {
+      "fly 0.5": [
+        0.05062910517785551,
+        0.2771317829457364
+      ],
+      "fly 0.6": [
+        0.04452810840856382,
+        0.25134099616858235
+      ],
+      "fly 0.7": [
+        0.3879241379310345,
+        0.4961089494163424
+      ],
+      "0.7 minus 0.5": [
+        0.218977166470606,
+        0.3372950327531789
+      ],
+      "0.7 minus 0.6": [
+        0.24476795324776007,
+        0.3436339869281046
+      ]
+    }
+  },
+  "note": "third look at both fly test sets; first for 0.6, 0.7 and the fly eyes"
+}

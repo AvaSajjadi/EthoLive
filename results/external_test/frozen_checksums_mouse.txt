@@ -1,0 +1,5 @@
+# frozen 2026-11-02T12:11:44, before reading the external mouse data
+ebe36948651e69d418b032d21ba6408fe97f36a660c68fc9559bf281fa28b01b  models/etholive/mouse.pt
+0de71da30b728c135b5f41a1cab469ae581a73d74ec196e56a22497a993f785c  models/etholive/fly.pt
+08b42beece5849e3ebf02b0f46f418ec3b538c065c47de9af81e8df0716af2ac  models/mousescope.pt
+541959ae0235a18e9f5a1a03a224a237c27dc79c357ad77de8f043d14afdeeae  models/model_b.joblib

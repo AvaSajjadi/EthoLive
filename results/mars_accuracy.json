@@ -1,0 +1,33 @@
+{
+ "pictures": 60,
+ "clean": {
+  "median_all": 6.52,
+  "within_5": 0.3488,
+  "within_10": 0.6988,
+  "median_touching": 6.78,
+  "median_apart": 6.48,
+  "per_keypoint": {
+   "nose": 5.1,
+   "right_ear": 5.6,
+   "left_ear": 5.4,
+   "neck": 5.7,
+   "right_side": 11.9,
+   "left_side": 12.2,
+   "tail_base": 5.7
+  },
+  "per_mouse": {
+   "black": 6.56,
+   "white": 6.5
+  }
+ },
+ "degraded": {
+  "median_all": 7.64,
+  "within_5": 0.2976,
+  "within_10": 0.6202,
+  "median_touching": 7.92,
+  "median_apart": 7.55
+ },
+ "shift_median_px": 3.55,
+ "shift_p95_px": 28.49,
+ "repeat_max_px": 0.0
+}

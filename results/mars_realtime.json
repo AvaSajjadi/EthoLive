@@ -1,0 +1,19 @@
+{
+ "backend": "mars",
+ "feed_fps": 30.0,
+ "seconds_fed": 20.0,
+ "frames_available": 601,
+ "frames_processed": 22,
+ "share_processed": 0.0366,
+ "reached_fps": 1.03,
+ "latency_median_s": 0.987,
+ "latency_p95_s": 1.144,
+ "keeps_up_with_live": false,
+ "accuracy_vs_saved_keypoints": {
+  "pictures": 22,
+  "both_mice_found_share": 1.0,
+  "median_error_px": 3.31,
+  "within_5px": 0.6623,
+  "within_10px": 0.8929
+ }
+}

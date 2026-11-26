@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-02",
+  "frozen": "outputs/test_run_etholive/frozen_checksums.txt",
+  "mouse": {
+    "sessions": 19,
+    "frames": 262107,
+    "rule": "attack rule v1",
+    "note": "second look at the CalMS21 test split (the first: MouseScope 0.1, outputs/test_run/)",
+    "models": {
+      "EthoLive 0.4": {
+        "macro_f1": 0.8469821696290486,
+        "attack_f1": 0.7776321874518267,
+        "investigation_f1": 0.8480391395511376,
+        "mount_f1": 0.9152751818841811,
+        "alerts": 232,
+        "alert_precision": 0.9870689655172413,
+        "alert_recall": 0.6705426356589147,
+        "false_alerts_per_hour": 1.2361363870480377,
+        "ci95_macro_f1": [
+          0.8110759528840987,
+          0.8678310744574672
+        ],
+        "ci95_alert_precision": [
+          0.9800557768924303,
+          1.0
+        ],
+        "ci95_alert_recall": [
+          0.6007650273224043,
+          0.7524752475247525
+        ]
+      },
+      "MouseScope 0.1": {
+        "macro_f1": 0.8181095303041581,
+        "attack_f1": 0.730251431605294,
+        "investigation_f1": 0.8231790293859206,
+        "mount_f1": 0.9008981299212598,
+        "alerts": 234,
+        "alert_precision": 0.9444444444444444,
+        "alert_recall": 0.6705426356589147,
+        "false_alerts_per_hour": 5.3565910105414964,
+        "ci95_macro_f1": [
+          0.7718597792837584,
+          0.8370073649933661
+        ],
+        "ci95_alert_precision": [
+          0.7777083333333333,
+          0.9771701057742327
+        ],
+        "ci95_alert_recall": [
+          0.5942028985507246,
+          0.723404255319149
+        ]
+      },
+      "Model B": {
+        "macro_f1": 0.7546421055686144,
+        "attack_f1": 0.5918609739326124,
+        "investigation_f1": 0.78187675361114,
+        "mount_f1": 0.8901885891620912,
+        "alerts": 183,
+        "alert_precision": 0.825136612021858,
+        "alert_recall": 0.5232558139534884,
+        "false_alerts_per_hour": 13.18545479517907,
+        "ci95_macro_f1": [
+          0.6660993611358761,
+          0.7794743145749503
+        ],
+        "ci95_alert_precision": [
+          0.4736664295874822,
+          0.9062518296252927
+        ],
+        "ci95_alert_recall": [
+          0.4725958378970427,
+          0.6144578313253012
+        ]
+      }
+    },
+    "paired_differences_ci95": {
+      "EthoLive 0.4 - MouseScope 0.1": {
+        "macro_f1": [
+          0.019158866937346048,
+          0.06306543914786414
+        ],
+        "attack_f1": [
+          0.022397409216457588,
+          0.1514150136291538
+        ],
+        "alert_precision": [
+          0.011689672929406324,
+          0.18699792960662504
+        ],
+        "alert_recall": [
+          -0.04999999999999993,
+          0.05882352941176472
+        ]
+      },
+      "EthoLive 0.4 - Model B": {
+        "macro_f1": [
+          0.06423436743872298,
+          0.16913684806855434
+        ],
+        "attack_f1": [
+          0.09835402231365944,
+          0.4176076689077972
+        ],
+        "alert_precision": [
+          0.08072719998835234,
+          0.4737640079103493
+        ],
+        "alert_recall": [
+          0.07142857142857151,
+          0.17105263157894735
+        ]
+      }
+    }
+  },
+  "fly": {
+    "movies": 5,
+    "frames": 266991,
+    "labels": {
+      "other": 250547,
+      "wing_threat": 7036,
+      "lunge": 6591,
+      "ignore": 3009,
+      "tussle": 1906,
+      "hold": 911
+    },
+    "note": "first look at Fly vs. Fly Aggression movies 6-10",
+    "models": {
+      "EthoLive 0.4 fly": {
+        "n_frames": 266991,
+        "lunge_precision": 0.41213415400075365,
+        "lunge_recall": 0.49780003034440906,
+        "lunge_f1": 0.4509345794392523,
+        "wing_threat_precision": 0.5247669913079903,
+        "wing_threat_recall": 0.7121944286526436,
+        "wing_threat_f1": 0.6042809767862527,
+        "tussle_precision": 0.5674255691768827,
+        "tussle_recall": 0.6799580272822665,
+        "tussle_f1": 0.6186157517899761,
+        "hold_precision": 0.41256544502617803,
+        "hold_recall": 0.43249176728869376,
+        "hold_f1": 0.4222936763129689,
+        "macro_f1": 0.5240312460821125,
+        "lunge_bouts": 1585,
+        "lunge_bout_recall": 0.8334384858044164,
+        "lunge_bout_precision": 0.4973063973063973,
+        "ci95_macro_f1": [
+          0.3592197629382006,
+          0.6077958868965845
+        ]
+      },
+      "frame branch alone (logistic regression)": {
+        "n_frames": 266991,
+        "lunge_precision": 0.19584889399597816,
+        "lunge_recall": 0.8274920345926263,
+        "lunge_f1": 0.3167339353639769,
+        "wing_threat_precision": 0.16521310480812984,
+        "wing_threat_recall": 0.6192438885730529,
+        "wing_threat_f1": 0.2608357279693487,
+        "tussle_precision": 0.4037735849056604,
+        "tussle_recall": 0.7859391395592865,
+        "tussle_f1": 0.5334757834757836,
+        "hold_precision": 0.25741811175337187,
+        "hold_recall": 0.7332601536772777,
+        "hold_f1": 0.38106103822019394,
+        "macro_f1": 0.3730266212573258,
+        "lunge_bouts": 1585,
+        "lunge_bout_recall": 0.9287066246056782,
+        "lunge_bout_precision": 0.44111695669769324,
+        "ci95_macro_f1": [
+          0.25480981044523654,
+          0.4728715912445798
+        ]
+      }
+    },
+    "paired_difference_macro_f1_ci95": {
+      "EthoLive 0.4 fly - frame branch alone (logistic regression)": [
+        0.09164572316546593,
+        0.1907916898861624
+      ]
+    }
+  }
+}

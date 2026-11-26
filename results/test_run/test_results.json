@@ -1,0 +1,57 @@
+{
+  "sessions": 19,
+  "frames": 262107,
+  "rule": "attack rule v1",
+  "models": {
+    "model B": {
+      "macro_f1": 0.7546421055686144,
+      "attack_f1": 0.5918609739326124,
+      "investigation_f1": 0.78187675361114,
+      "mount_f1": 0.8901885891620912,
+      "alerts": 183,
+      "alert_precision": 0.825136612021858,
+      "bouts_found": "135 of 258",
+      "alert_recall": 0.5232558139534884,
+      "short_bouts_found": "47 of 126",
+      "false_alerts_per_hour": 13.18545479517907,
+      "fire_offset_median_s": 0.9,
+      "ci95_macro_f1": [
+        0.6660993611358761,
+        0.7794743145749503
+      ],
+      "ci95_alert_precision": [
+        0.4736664295874822,
+        0.9062518296252927
+      ],
+      "ci95_alert_recall": [
+        0.4725958378970427,
+        0.6144578313253012
+      ]
+    },
+    "MouseScope": {
+      "macro_f1": 0.8181095303041581,
+      "attack_f1": 0.730251431605294,
+      "investigation_f1": 0.8231790293859206,
+      "mount_f1": 0.9008981299212598,
+      "alerts": 234,
+      "alert_precision": 0.9444444444444444,
+      "bouts_found": "173 of 258",
+      "alert_recall": 0.6705426356589147,
+      "short_bouts_found": "61 of 126",
+      "false_alerts_per_hour": 5.3565910105414964,
+      "fire_offset_median_s": 0.5666666666666667,
+      "ci95_macro_f1": [
+        0.7718597792837584,
+        0.8370073649933661
+      ],
+      "ci95_alert_precision": [
+        0.7777083333333333,
+        0.9771701057742327
+      ],
+      "ci95_alert_recall": [
+        0.5942028985507246,
+        0.723404255319149
+      ]
+    }
+  }
+}

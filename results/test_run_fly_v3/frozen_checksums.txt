@@ -1,0 +1,4 @@
+# frozen 2026-11-04T20:58:11, before reading test data; commit 3bf9e0f1a9142438613436cde334b7303fda29b8
+facdc28f32044c100ebc6b59124914eb48be5a9c02c8f48c3372d5a6565e7678  backups/etholive_fly_0.5_with_eyes_2026-11-04/fly.pt
+6336efe4888e70c3023bcd0dc5acb2afe69a47448180838d048ad1dd000712e6  backups/etholive_fly_0.6_2026-11-04/fly.pt
+f491b2a7387279697e6a0c58a89ec31941a0e9f3bd1be3c0584a3e66b0afc5df  models/etholive/fly.pt

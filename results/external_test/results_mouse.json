@@ -1,0 +1,257 @@
+{
+  "date": "2026-11-02",
+  "mouse_calms21_task2": {
+    "all 5 annotators": {
+      "EthoLive 0.4": {
+        "videos": 77,
+        "frames": 1537862,
+        "macro_f1": 0.7732778071553273,
+        "attack_f1": 0.7037959146668898,
+        "investigation_f1": 0.7689623156247111,
+        "mount_f1": 0.8470751911743815,
+        "alert_precision": 0.90311986863711,
+        "alert_recall": 0.6251039068994181,
+        "false_alerts_per_hour": 8.286829377408376,
+        "ci95_macro_f1": [
+          0.7414226369786219,
+          0.7987496261323199
+        ]
+      },
+      "MouseScope 0.1": {
+        "videos": 77,
+        "frames": 1537862,
+        "macro_f1": 0.7598258535039081,
+        "attack_f1": 0.6860615085960456,
+        "investigation_f1": 0.7553017513546645,
+        "mount_f1": 0.8381143005610139,
+        "alert_precision": 0.8835098335854765,
+        "alert_recall": 0.6783042394014963,
+        "false_alerts_per_hour": 10.815014611193982,
+        "ci95_macro_f1": [
+          0.7290261813763168,
+          0.7841338892489454
+        ]
+      },
+      "Model B": {
+        "videos": 77,
+        "frames": 1537862,
+        "macro_f1": 0.697416374048042,
+        "attack_f1": 0.5753661228434349,
+        "investigation_f1": 0.7132613126191227,
+        "mount_f1": 0.8036216866815685,
+        "alert_precision": 0.8008849557522124,
+        "alert_recall": 0.5527847049044057,
+        "false_alerts_per_hour": 15.80115771116004,
+        "ci95_macro_f1": [
+          0.6645688793899329,
+          0.7204223350037942
+        ]
+      },
+      "paired_differences_ci95": {
+        "EthoLive 0.4 - MouseScope 0.1": {
+          "macro_f1": [
+            0.009581904151330922,
+            0.018423384667190842
+          ],
+          "attack_f1": [
+            0.008467288919663104,
+            0.03112051437738251
+          ],
+          "alert_precision": [
+            -0.008576368235432338,
+            0.051511583698413584
+          ]
+        },
+        "EthoLive 0.4 - Model B": {
+          "macro_f1": [
+            0.06492974877181508,
+            0.09266110063013319
+          ],
+          "attack_f1": [
+            0.09446763890785788,
+            0.17941155338005815
+          ],
+          "alert_precision": [
+            0.06617972183825388,
+            0.1532491888766982
+          ]
+        }
+      }
+    },
+    "annotator1": {
+      "EthoLive 0.4": {
+        "videos": 19,
+        "frames": 425932,
+        "macro_f1": 0.833125056563281,
+        "attack_f1": 0.7850988523828251,
+        "investigation_f1": 0.8055493357217495,
+        "mount_f1": 0.9087269815852682,
+        "alert_precision": 0.9585253456221198,
+        "alert_recall": 0.5974025974025974,
+        "false_alerts_per_hour": 2.2820544124414224
+      },
+      "MouseScope 0.1": {
+        "videos": 19,
+        "frames": 425932,
+        "macro_f1": 0.82337536101685,
+        "attack_f1": 0.7702357468550917,
+        "investigation_f1": 0.796872172430543,
+        "mount_f1": 0.9030181637649154,
+        "alert_precision": 0.9446640316205533,
+        "alert_recall": 0.6926406926406926,
+        "false_alerts_per_hour": 3.549862419353324
+      },
+      "Model B": {
+        "videos": 19,
+        "frames": 425932,
+        "macro_f1": 0.7476149729227549,
+        "attack_f1": 0.6091050153854246,
+        "investigation_f1": 0.7436256916404965,
+        "mount_f1": 0.8901142117423435,
+        "alert_precision": 0.8212765957446808,
+        "alert_recall": 0.5541125541125541,
+        "false_alerts_per_hour": 10.649587258059972
+      }
+    },
+    "annotator2": {
+      "EthoLive 0.4": {
+        "videos": 12,
+        "frames": 286542,
+        "macro_f1": 0.7856232328784224,
+        "attack_f1": 0.7800965850293204,
+        "investigation_f1": 0.8308181763611261,
+        "mount_f1": 0.7459549372448208,
+        "alert_precision": 0.971830985915493,
+        "alert_recall": 0.591304347826087,
+        "false_alerts_per_hour": 2.261448583453735
+      },
+      "MouseScope 0.1": {
+        "videos": 12,
+        "frames": 286542,
+        "macro_f1": 0.7562331343668732,
+        "attack_f1": 0.7460160544110087,
+        "investigation_f1": 0.8083248594966845,
+        "mount_f1": 0.7143584891929263,
+        "alert_precision": 0.9218106995884774,
+        "alert_recall": 0.6260869565217392,
+        "false_alerts_per_hour": 7.1612538476034935
+      },
+      "Model B": {
+        "videos": 12,
+        "frames": 286542,
+        "macro_f1": 0.6786165168571953,
+        "attack_f1": 0.6348678743559913,
+        "investigation_f1": 0.7740531180645318,
+        "mount_f1": 0.6269285581510626,
+        "alert_precision": 0.8883720930232558,
+        "alert_recall": 0.5695652173913044,
+        "false_alerts_per_hour": 9.04579433381494
+      }
+    },
+    "annotator3": {
+      "EthoLive 0.4": {
+        "videos": 10,
+        "frames": 184499,
+        "macro_f1": 0.6456934549098597,
+        "attack_f1": 0.6070304501156574,
+        "investigation_f1": 0.56133754649814,
+        "mount_f1": 0.7687123681157819,
+        "alert_precision": 0.7763713080168776,
+        "alert_recall": 0.5916230366492147,
+        "false_alerts_per_hour": 31.02455839869051
+      },
+      "MouseScope 0.1": {
+        "videos": 10,
+        "frames": 184499,
+        "macro_f1": 0.6373937364443893,
+        "attack_f1": 0.5950413223140496,
+        "investigation_f1": 0.5508687516706763,
+        "mount_f1": 0.766271135348442,
+        "alert_precision": 0.8085106382978723,
+        "alert_recall": 0.6230366492146597,
+        "false_alerts_per_hour": 26.341606187567415
+      },
+      "Model B": {
+        "videos": 10,
+        "frames": 184499,
+        "macro_f1": 0.587146374552606,
+        "attack_f1": 0.5114440855041583,
+        "investigation_f1": 0.5093917406930223,
+        "mount_f1": 0.7406032974606372,
+        "alert_precision": 0.6994535519125683,
+        "alert_recall": 0.4397905759162304,
+        "false_alerts_per_hour": 32.195296451471286
+      }
+    },
+    "annotator4": {
+      "EthoLive 0.4": {
+        "videos": 10,
+        "frames": 184499,
+        "macro_f1": 0.6956443757028178,
+        "attack_f1": 0.6768844221105528,
+        "investigation_f1": 0.6120205520372805,
+        "mount_f1": 0.79802815296062,
+        "alert_precision": 0.8734177215189873,
+        "alert_recall": 0.7317073170731707,
+        "false_alerts_per_hour": 17.56107079171161
+      },
+      "MouseScope 0.1": {
+        "videos": 10,
+        "frames": 184499,
+        "macro_f1": 0.685311719851993,
+        "attack_f1": 0.6622287813608817,
+        "investigation_f1": 0.5986584684181107,
+        "mount_f1": 0.7950479097769864,
+        "alert_precision": 0.8723404255319149,
+        "alert_recall": 0.8048780487804879,
+        "false_alerts_per_hour": 17.56107079171161
+      },
+      "Model B": {
+        "videos": 10,
+        "frames": 184499,
+        "macro_f1": 0.639844486689058,
+        "attack_f1": 0.592704024069199,
+        "investigation_f1": 0.5587079524124613,
+        "mount_f1": 0.7681214835855137,
+        "alert_precision": 0.7759562841530054,
+        "alert_recall": 0.6341463414634146,
+        "false_alerts_per_hour": 24.000130082005867
+      }
+    },
+    "annotator5": {
+      "EthoLive 0.4": {
+        "videos": 26,
+        "frames": 456390,
+        "macro_f1": 0.69577638174121,
+        "attack_f1": 0.6851280242231825,
+        "investigation_f1": 0.8080321488787191,
+        "mount_f1": 0.594168972121728,
+        "alert_precision": 0.9363057324840764,
+        "alert_recall": 0.650319829424307,
+        "false_alerts_per_hour": 4.732794320646815
+      },
+      "MouseScope 0.1": {
+        "videos": 26,
+        "frames": 456390,
+        "macro_f1": 0.6575426870227389,
+        "attack_f1": 0.6594035741085573,
+        "investigation_f1": 0.7966534815902834,
+        "mount_f1": 0.5165710053693761,
+        "alert_precision": 0.8707865168539326,
+        "alert_recall": 0.697228144989339,
+        "false_alerts_per_hour": 10.885426937487676
+      },
+      "Model B": {
+        "videos": 26,
+        "frames": 456390,
+        "macro_f1": 0.539290352573097,
+        "attack_f1": 0.5333178654292343,
+        "investigation_f1": 0.7565333552372759,
+        "mount_f1": 0.3280198370527807,
+        "alert_precision": 0.7993630573248408,
+        "alert_recall": 0.5756929637526652,
+        "false_alerts_per_hour": 14.908302110037468
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+# environments and caches
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+.DS_Store
+
+# datasets and run outputs: downloaded or regenerated, never committed (docs/reproducibility.md)
+data
+data/
+outputs/
+runs/
+*.zip
+
+# model weights: release assets, checked against models/CHECKSUMS.sha256
+models/**/*.pt
+models/**/*.joblib
+models/**/*.pb
+models/**/*.bin
+
+# LaTeX build files
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.pdf
+
+# development tool settings
+.claude/
+CLAUDE.md
+.vscode/
+.idea/

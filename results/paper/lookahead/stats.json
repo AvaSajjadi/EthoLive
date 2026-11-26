@@ -1,0 +1,12 @@
+{
+  "gain_K6": {
+    "n": 11,
+    "spearman_rho": -0.7272727272727273,
+    "p_permutation": 0.014595
+  },
+  "gain_K31": {
+    "n": 11,
+    "spearman_rho": -0.5454545454545455,
+    "p_permutation": 0.087205
+  }
+}

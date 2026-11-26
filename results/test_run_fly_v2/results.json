@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-02",
+  "rows": [
+    {
+      "test set": "aggression",
+      "model": "EthoLive fly 0.4",
+      "macro_f1": 0.5240312460821125,
+      "lunge_f1": 0.4509345794392523,
+      "wing_threat_f1": 0.6042809767862527,
+      "tussle_f1": 0.6186157517899761,
+      "hold_f1": 0.4222936763129689,
+      "lunge_bout_recall": 0.8334384858044164,
+      "lunge_bout_precision": 0.4973063973063973
+    },
+    {
+      "test set": "aggression",
+      "model": "EthoLive fly 0.5",
+      "macro_f1": 0.5543404213230987,
+      "lunge_f1": 0.4922989807474519,
+      "wing_threat_f1": 0.6546399191802569,
+      "tussle_f1": 0.6165482466192986,
+      "hold_f1": 0.45387453874538747,
+      "lunge_bout_recall": 0.9356466876971609,
+      "lunge_bout_precision": 0.4862662239661938
+    },
+    {
+      "test set": "boymeetsboy",
+      "model": "EthoLive fly 0.4",
+      "lunge_f1": 0.031093544137022398,
+      "wing_threat_f1": 0.20148072266716338,
+      "lunge_bout_recall": 0.40425531914893614,
+      "lunge_bout_precision": 0.03593556381660471,
+      "lunge_wing_mean_f1": 0.11628713340209289
+    },
+    {
+      "test set": "boymeetsboy",
+      "model": "EthoLive fly 0.5",
+      "lunge_f1": 0.19146482122260672,
+      "wing_threat_f1": 0.6598909794267629,
+      "lunge_bout_recall": 0.851063829787234,
+      "lunge_bout_precision": 0.1930379746835443,
+      "lunge_wing_mean_f1": 0.4256779003246848
+    }
+  ],
+  "note": "second look at both fly test sets"
+}

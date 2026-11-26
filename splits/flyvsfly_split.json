@@ -1,0 +1,19 @@
+{
+  "train": [
+    "flyvsfly/aggression/movie1",
+    "flyvsfly/aggression/movie2",
+    "flyvsfly/aggression/movie4",
+    "flyvsfly/aggression/movie5"
+  ],
+  "validation": [
+    "flyvsfly/aggression/movie3"
+  ],
+  "test": [
+    "flyvsfly/aggression/movie6",
+    "flyvsfly/aggression/movie7",
+    "flyvsfly/aggression/movie8",
+    "flyvsfly/aggression/movie9",
+    "flyvsfly/aggression/movie10"
+  ],
+  "note": "Official Fly vs. Fly split: movies 1-5 train, 6-10 test. EthoLive keeps movie 3 of the train half for validation (most varied labels, few missing frames); the test movies are not read for any choice."
+}

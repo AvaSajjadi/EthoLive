@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below. The accompanying manuscript is under review."
+title: "EthoLive: causal real-time behavior classification from animal pose"
+type: software
+authors:
+  - family-names: Sajjadi
+    given-names: Ava
+    affiliation: "University of Massachusetts Boston"
+version: "0.4.0"
+repository-code: "https://github.com/AvaSajjadi/EthoLive"
+keywords:
+  - animal behavior
+  - pose estimation
+  - real-time classification
+  - causal temporal convolution
+  - neuroethology
